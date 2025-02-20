@@ -6,6 +6,8 @@
     <title>Harsh Mishra Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <style>
         @keyframes gradient {
             0% {background-position: 0% 50%;}
@@ -88,43 +90,43 @@
     </section>
 
     <!-- About Section -->
-    <section id="about" class="py-20 relative">
-    <div class="container mx-auto px-6">
-        <h2 class="text-4xl font-bold mb-12 gradient-text">About Me</h2>
-        <div class="grid md:grid-cols-2 gap-12">
-            <div class="space-y-6">
-                <p class="text-lg leading-relaxed text-justify">
-                    Hi, I'm Harsh Mishra, a dedicated and enthusiastic B.Tech undergraduate specializing in Computer Science and Engineering (CSE) with a focus on Artificial Intelligence and Machine Learning (AI & ML). Currently on my academic journey, I am set to graduate in 2026 with a strong passion for cutting-edge technologies that drive intelligent automation and data-driven decision-making.
-                </p>
-                <p class="text-lg leading-relaxed text-justify">
-                    From the very beginning of my technical journey, I have been deeply fascinated by the transformative potential of AI and ML. My academic coursework, coupled with hands-on experience in Data Analytics, has enabled me to build a strong foundation in statistical modeling, machine learning algorithms, deep learning architectures, and data-driven insights. I thrive on solving complex challenges using predictive analytics, neural networks, and optimization techniques, with a keen interest in applying AI to real-world scenarios.
-                </p>
-                <p class="text-lg leading-relaxed text-justify">    
-                    Beyond academics, I actively engage in projects, research, and competitions that allow me to explore AI-driven innovations. My goal is to leverage in-demand AI/ML technologies to develop intelligent solutions that create meaningful impact across industries, from healthcare and finance to smart automation and sustainability. I enjoy working on data-centric problem-solving, utilizing tools like Python, TensorFlow, Scikit-learn, and cloud-based AI services to drive efficiency and innovation.
-                </p>
-                <p class="text-lg leading-relaxed text-justify">
-                    I am always eager to collaborate, learn, and experiment with new AI trends, pushing the boundaries of intelligent systems and contributing to the evolving landscape of artificial intelligence and data science. Whether it's through research, development, or industry applications, I am committed to staying at the forefront of AI advancements and making a difference with technology.
-                </p>
-                <div class="flex space-x-4">
-                    <div class="p-4 bg-[#1a1a1a] rounded-lg text-center flex-1">
-                        <h3 class="text-[#00ff88] text-2xl font-bold">10+</h3>
-                        <p class="text-sm">Projects Completed</p>
-                    </div>
-                    <div class="p-4 bg-[#1a1a1a] rounded-lg text-center flex-1">
-                        <h3 class="text-[#00ff88] text-2xl font-bold">98%</h3>
-                        <p class="text-sm">Accuracy Rate</p>
+    <section id="about" class="py-20 relative" data-aos="fade-up">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold mb-12 gradient-text">About Me</h2>
+            <div class="grid md:grid-cols-2 gap-12">
+                <div class="space-y-6">
+                    <p class="text-lg leading-relaxed text-justify">
+                        Hi, I'm Harsh Mishra, a dedicated and enthusiastic B.Tech undergraduate specializing in Computer Science and Engineering (CSE) with a focus on Artificial Intelligence and Machine Learning (AI & ML). Currently on my academic journey, I am set to graduate in 2026 with a strong passion for cutting-edge technologies that drive intelligent automation and data-driven decision-making.
+                    </p>
+                    <p class="text-lg leading-relaxed text-justify">
+                        From the very beginning of my technical journey, I have been deeply fascinated by the transformative potential of AI and ML. My academic coursework, coupled with hands-on experience in Data Analytics, has enabled me to build a strong foundation in statistical modeling, machine learning algorithms, deep learning architectures, and data-driven insights. I thrive on solving complex challenges using predictive analytics, neural networks, and optimization techniques, with a keen interest in applying AI to real-world scenarios.
+                    </p>
+                    <p class="text-lg leading-relaxed text-justify">    
+                        Beyond academics, I actively engage in projects, research, and competitions that allow me to explore AI-driven innovations. My goal is to leverage in-demand AI/ML technologies to develop intelligent solutions that create meaningful impact across industries, from healthcare and finance to smart automation and sustainability. I enjoy working on data-centric problem-solving, utilizing tools like Python, TensorFlow, Scikit-learn, and cloud-based AI services to drive efficiency and innovation.
+                    </p>
+                    <p class="text-lg leading-relaxed text-justify">
+                        I am always eager to collaborate, learn, and experiment with new AI trends, pushing the boundaries of intelligent systems and contributing to the evolving landscape of artificial intelligence and data science. Whether it's through research, development, or industry applications, I am committed to staying at the forefront of AI advancements and making a difference with technology.
+                    </p>
+                    <div class="flex space-x-4">
+                        <div class="p-4 bg-[#1a1a1a] rounded-lg text-center flex-1">
+                            <h3 class="text-[#00ff88] text-2xl font-bold">10+</h3>
+                            <p class="text-sm">Projects Completed</p>
+                        </div>
+                        <div class="p-4 bg-[#1a1a1a] rounded-lg text-center flex-1">
+                            <h3 class="text-[#00ff88] text-2xl font-bold">98%</h3>
+                            <p class="text-sm">Accuracy Rate</p>
+                        </div>
                     </div>
                 </div>
+                <div class="bg-[#1a1a1a] rounded-2xl p-8 flex justify-center items-center">
+                    <img src="images/profiles.png" alt="Professional Picture" class="rounded-full w-47 h-49 hover-image">
+                </div>            
             </div>
-            <div class="bg-[#1a1a1a] rounded-2xl p-8 flex justify-center items-center">
-                <img src="images/profiles.png" alt="Professional Picture" class="rounded-full w-47 h-49 hover-image">
-            </div>            
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- Education Section -->
-    <section id="education" class="py-20 relative">
+    <!-- Education Section -->
+    <section id="education" class="py-20 relative" data-aos="fade-up">
         <div class="container mx-auto px-6">
             <h2 class="text-4xl font-bold mb-12 gradient-text">Education</h2>
             <div class="space-y-8">
@@ -162,7 +164,7 @@
     </section>
 
     <!-- Skills Section -->
-    <section id="skills" class="py-20 relative">
+    <section id="skills" class="py-20 relative" data-aos="fade-up">
         <div class="container mx-auto px-6">
             <h2 class="text-4xl font-bold mb-12 gradient-text">Technical Arsenal</h2>
             <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
@@ -201,8 +203,9 @@
             </div>
         </div>
     </section>
+
     <!-- Experience Section -->
-    <section id="experience" class="py-20 relative">
+    <section id="experience" class="py-20 relative" data-aos="fade-up">
         <div class="container mx-auto px-6">
             <h2 class="text-4xl font-bold mb-12 gradient-text">Experience</h2>
             <div class="space-y-8">
@@ -233,7 +236,7 @@
     </section>
 
     <!-- Projects Section -->
-    <section id="projects" class="py-20 relative">
+    <section id="projects" class="py-20 relative" data-aos="fade-up">
         <div class="container mx-auto px-6">
             <h2 class="text-4xl font-bold mb-12 gradient-text">Featured Projects</h2>
             <div class="grid md:grid-cols-3 gap-8">
@@ -270,8 +273,9 @@
             </div>
         </div>
     </section>
+
     <!-- Contact Section -->
-    <section id="contact" class="py-20 relative">
+    <section id="contact" class="py-20 relative" data-aos="fade-up">
         <div class="container mx-auto px-6 max-w-2xl">
             <h2 class="text-4xl font-bold mb-12 gradient-text">Get In Touch</h2>
             <form class="space-y-6">
@@ -294,12 +298,19 @@
     <!-- Footer -->
     <footer class="border-t border-[#1a1a1a]">
         <div class="container mx-auto px-6 py-8 text-center">
-            
             <p class="text-sm opacity-50">&copy; 2025 Harsh Mishra. All rights reserved.</p>
         </div>
     </footer>
 
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
+        // Initialize AOS
+        AOS.init({
+            duration: 1000, // Animation duration
+            once: true, // Whether animation should happen only once
+        });
+
         // Particle animation
         function createParticles() {
             const particles = document.getElementById('particles');
